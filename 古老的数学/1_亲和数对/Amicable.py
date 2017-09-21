@@ -3,7 +3,7 @@ from number_modul import getDivisor
 m=2
 n=99999
 
-checkList=[]#逐渐调试，才有这行代码的
+checkList=[]
 
 for x in range(m,n):
 
@@ -16,9 +16,9 @@ for x in range(m,n):
         #得到 可能的亲和数
         partner=sum(divisorList)
         #print(partner) ok
-
+        
+        #每隔1000输出一次结果，方便观察程序进程
         checkList.append(partner)
-
         if x%1000==0:
             print ("这是 "+str(x))
 
@@ -26,7 +26,6 @@ for x in range(m,n):
         partnerDivisorList=getDivisor(partner)
         mid=sum(partnerDivisorList)
         if mid==x and partner!=x:
-
             print (str(x)+" 和 "+str(partner)+' 是亲和数')
 
 
