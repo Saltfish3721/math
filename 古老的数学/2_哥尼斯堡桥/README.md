@@ -1,8 +1,9 @@
 # 哥（柯）尼斯堡桥
 
 ## 问题描述
-[1.png](./forREADME/1.png)
 ![GitHub](./forREADME/1.png "GitHub,Social Coding")
+![GitHub](./forREADME/2.png "GitHub,Social Coding")
+![GitHub](./forREADME/3.png "GitHub,Social Coding")
 &emsp;&emsp;<br>
 &emsp;&emsp;2.找出x除了自身的所有因子，求出因子和y。<br>
 &emsp;&emsp;3.判断y的因子和是不是x。<br>
